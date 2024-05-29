@@ -1,0 +1,59 @@
+body{
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f8f8;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    max-height: 50px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+nav a:hover {
+    color: #007bff;
+}
+
+
+.banner {
+    width: 100%; /* Ancho completo del banner */
+    height: 50%; /* Altura del banner */
+    background-image: url('http://point.moxcreative.com/yumma/wp-content/uploads/sites/2/2022/04/chinese-food-white-background.jpg'); /* Imagen de fondo */
+    background-size: cover; /* Cubrir todo el contenedor */
+    background-position: center; /* Posición central de la imagen */
+}
+
+.contenido-banner {
+    position: absolute; /* Posicionamiento absoluto para superponer la imagen */
+    top: 50%; /* Posicionamiento vertical centrado */
+    left: 50%; /* Posicionamiento horizontal centrado */
+    transform: translate(-50%, -50%); /* Centrar el contenido dentro del banner */
+    text-align: center; /* Alinear el texto al centro */
+}
+
+h1 {
+    color: #111111; /* Color de texto blanco */
+    font-size: 40px; /* Tamaño de fuente grande */
+    font-weight: bold; /* Texto en negrita */
+}
+
+p {
+    color: #ffffff; /* Color de texto blanco */
+    font-size: 18px; }/* Tamaño de fuente
